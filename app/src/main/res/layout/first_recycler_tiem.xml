@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EDEFF2"
+        />
+   <LinearLayout
+       android:id="@+id/news_top"
+       android:layout_margin="@dimen/dp_10"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:id="@+id/show_item_text"
+           android:layout_gravity="center_vertical"
+           android:layout_width="0dp"
+           android:layout_weight="3"
+           android:layout_height="wrap_content"
+           android:text="弱国无外交我们的故事到这打激素爱的撒旦撒旦撒经典赛"
+           android:textSize="17dp"
+           android:textColor="@android:color/black"
+           />
+       <ImageView
+           android:id="@+id/show_item_img"
+           android:layout_marginTop="@dimen/dp_10"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="70dp"
+           android:src="@drawable/ss_t"
+           />
+
+   </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

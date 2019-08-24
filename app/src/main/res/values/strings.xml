@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">玩转新闻</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="link">http://v.juhe.cn/toutiao/</string>
+</resources>
